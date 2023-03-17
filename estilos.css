@@ -166,3 +166,16 @@ header .logo{
 .bloco-texto .text a:hover{
     transform: translateY(-10px);
 }
+
+/* COLOCANDO IMAGEM NA PARTE DIREITA DA TELA */
+.boxImg{
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+}
+.boxImg img{
+    width: 700px;
+}
+.boxImg .img{
+    transform: rotate(0deg)
+}
