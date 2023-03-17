@@ -32,7 +32,7 @@ section{
     color: white;
 }
 
-/* --- Parte do Circulo --- */
+/* Parte do Circulo */
 
 .circulo{
     position: absolute;
@@ -44,7 +44,7 @@ section{
     clip-path: circle(50% at bottom right);
 }
 
-/* --- Navbar e seus itens --- */
+/* Navbar e seus itens */
 header{
     position: absolute;
     top: 0;
@@ -80,7 +80,7 @@ header .logo{
     max-width: 200px;
 }
 
-/* --- ANIMAÇÃO E AJUSTE DOS ICONES DAS REDES SOCIAIS --- */
+/* ANIMAÇÃO E AJUSTE DOS ICONES DAS REDES SOCIAIS */
 
 /*Colocar os icones na parte de baixo*/
 .icons{
@@ -117,4 +117,52 @@ header .logo{
 .icons li a img{
     filter: invert(1);
     transform: scale(0.5);
+}
+
+/* CSS do texto na parte direita da tela */
+
+/* --- Conteiner com o Texto na Esquerda */
+
+.bloco-texto{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bloco-texto .text{
+    position: relative;
+    max-width: 600px;
+    margin-right: 20px;
+}
+.bloco-texto .text h2{
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 10px;
+    line-height: 2.5em;
+    font-weight: 700;
+}
+
+/* Texto do meio colorido */
+.bloco-texto .text h2 span{
+    font-size: 3.5em;
+    color: #3e2fc4; /* Parte com cor do texto */
+}
+.bloco-texto .text p{
+    color: #fff;
+}
+.bloco-texto .text a{
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 25px;
+    background: #3e2fc4;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: 0.3s ease-in-out;
+}
+.bloco-texto .text a:hover{
+    transform: translateY(-10px);
 }
