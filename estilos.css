@@ -79,3 +79,42 @@ header .logo{
     position: relative;
     max-width: 200px;
 }
+
+/* --- ANIMAÇÃO E AJUSTE DOS ICONES DAS REDES SOCIAIS --- */
+
+/*Colocar os icones na parte de baixo*/
+.icons{
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons li{
+    list-style: none;
+}
+
+/* Colocar animação */
+.icons li a{
+    display: inline-block;
+    margin-left: 45px;
+    background: #222;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition:  0.3s ease-in-out;
+}
+
+/* Colocando cor na animação */
+.icons li a:hover{
+    background: #3e2fc4;
+    transform: translateY(-10px);
+}
+.icons li a img{
+    filter: invert(1);
+    transform: scale(0.5);
+}
