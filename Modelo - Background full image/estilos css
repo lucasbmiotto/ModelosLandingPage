@@ -1,0 +1,45 @@
+/*  -------------------------------------
+    |      Onde escolher a Fonte:        |
+    |                                    |
+    |     https://fonts.google.com/      |
+    --------------------------------------
+*/
+
+/* CSS GERAL DA PÁGINA */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    overflow: hidden; 
+}
+
+/* Background */
+
+.fundo{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Efeito para escurecer o fundo */
+    background-image: url(); /* Colocar imagem no fundo */
+    /* Manipulando a imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.background{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+   
+}
