@@ -87,3 +87,47 @@ header{
     font-size: 43px;
     cursor: pointer;
 }
+
+/* Botão text */
+button{
+    color: #d67f1b;
+    background: transparent;
+    border:solid 1px #d67f1b;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    width: 150px;
+}
+
+button:hover{
+    background-color: #d67f1b;
+    color: #fff;
+    transition: 0.5s;
+}
+
+/* Configurando texto */
+.container-text{
+    padding: 150px 0 0 130px;
+}
+
+.text h3{
+    color: #fff;
+    font-size: 25px;
+}
+
+.text h1{
+    color: #fff;
+    margin-top: 120px;
+}
+
+.text span{
+    color: #d67f1b; 
+}
+
+.text p{
+    color: #fff;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 19px;
+}
